@@ -1,0 +1,53 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="rtm0x17.DefectCataloger.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DefectTypes" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;IMPREVISTI&lt;/string&gt;
+  &lt;string&gt;MACCHIE DI ALTRO&lt;/string&gt;
+  &lt;string&gt;COLORE&lt;/string&gt;
+  &lt;string&gt;CONCENTRAZIONE&lt;/string&gt;
+  &lt;string&gt;KETJENBLACK&lt;/string&gt;
+  &lt;string&gt;DIFETTI DA RETTIFICA&lt;/string&gt;
+  &lt;string&gt;LUCIDI&lt;/string&gt;
+  &lt;string&gt;PASTA BRUCIATA&lt;/string&gt;
+  &lt;string&gt;RIGHE&lt;/string&gt;
+  &lt;string&gt;CIMOSSE&lt;/string&gt;
+  &lt;string&gt;BUCHI&lt;/string&gt;
+  &lt;string&gt;BOLLI&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="MinuteNoteTime" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="DefectTypeColors" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;#e6194b&lt;/string&gt;
+  &lt;string&gt;#3cb44b&lt;/string&gt;
+  &lt;string&gt;#ffe119&lt;/string&gt;
+  &lt;string&gt;#4363d8&lt;/string&gt;
+  &lt;string&gt;#f58231&lt;/string&gt;
+  &lt;string&gt;#911eb4&lt;/string&gt;
+  &lt;string&gt;#46f0f0&lt;/string&gt;
+  &lt;string&gt;#f032e6&lt;/string&gt;
+  &lt;string&gt;#bcf60c&lt;/string&gt;
+  &lt;string&gt;#fabebe&lt;/string&gt;
+  &lt;string&gt;#008080&lt;/string&gt;
+  &lt;string&gt;#e6beff&lt;/string&gt;
+  &lt;string&gt;#9a6324&lt;/string&gt;
+  &lt;string&gt;#fffac8&lt;/string&gt;
+  &lt;string&gt;#800000&lt;/string&gt;
+  &lt;string&gt;#aaffc3&lt;/string&gt;
+  &lt;string&gt;#808000&lt;/string&gt;
+  &lt;string&gt;#ffd8b1&lt;/string&gt;
+  &lt;string&gt;#000075&lt;/string&gt;
+  &lt;string&gt;#808080&lt;/string&gt;
+  &lt;string&gt;#ffffff&lt;/string&gt;
+  &lt;string&gt;#000000&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

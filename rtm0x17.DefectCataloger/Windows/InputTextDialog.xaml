@@ -1,0 +1,29 @@
+﻿<Window x:Class="rtm0x17.DefectCataloger.Windows.InputTextDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rtm0x17.DefectCataloger.Windows"
+        mc:Ignorable="d"
+        Title="InputTextDialog" 
+        Height="219" 
+        Width="480" WindowStartupLocation="CenterScreen">
+    <StackPanel VerticalAlignment="Center" Margin="10">
+        <Label x:Name="LabelMessage" FontSize="20"></Label>
+        <TextBox x:Name="TextBoxInputFromUser" FontSize="20" TextWrapping="WrapWithOverflow"></TextBox>
+        
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Margin" Value="10" />
+                    <Setter Property="Padding" Value="5" />
+                    <Setter Property="FontSize" Value="26"/>
+                    <Setter Property="Height" Value="50" />
+                </Style>
+            </StackPanel.Resources>
+
+            <Button x:Name="ButtonOk" Content="OK" Click="ButtonOk_Click"/>
+            <Button x:Name="ButtonCancel" Content="Annulla" Click="ButtonCancel_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
